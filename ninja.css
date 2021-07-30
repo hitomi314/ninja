@@ -17,3 +17,9 @@ span:hover {
   background: red;
   box-shadow: 10px 10px 15px -10px;
 }
+
+.big4 {
+  display: inline;
+  padding-bottom: 8px;
+  border-bottom: 2px dotted #0e6edf;
+}
