@@ -42,3 +42,28 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+.cat-red {
+  color: red;
+}
+#catBlue {
+  color: blue;
+}
+input[name="green"]::placeholder {
+  color: green;
+}
+[data-text="target"] {
+  color: pink;
+}
+ul {
+  list-style: none;
+}
+ul li:first-child {
+  color: red;
+}
+ul li:last-child {
+  color: blue;
+}
+ul li:nth-child(5) {
+  color: green;
+}
