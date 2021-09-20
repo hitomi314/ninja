@@ -103,3 +103,17 @@ padding: 0;
 li::before {
   content: "■";
 }
+
+.text-wrap {
+  width: 300px;
+  border: 1px solid;
+  padding: 12px;
+}
+.text-wrap p {
+  text-indent: -1em;
+  padding-left: 1em;
+  word-break: break-all;
+}
+.text-wrap > p:first-child {
+  margin-bottom: 24px;
+}
