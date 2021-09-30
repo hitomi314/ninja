@@ -195,3 +195,7 @@ p {
 .block {
   overflow: hidden;
 }
+
+p {
+  color: blue !important;
+}
