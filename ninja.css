@@ -213,3 +213,11 @@ li {
 li:last-child {
   border-bottom: 1px solid;
 }
+
+.logo {
+  width: 300px;
+}
+img {
+  width: 100%;
+  filter: blur(6px);
+}
