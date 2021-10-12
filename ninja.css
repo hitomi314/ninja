@@ -230,3 +230,12 @@ p {
   writing-mode: vertical-rl;
   text-orientation: upright;
 }
+
+.text {
+  margin-bottom: 16px;
+}
+.text > span {
+  background-color: yellow;
+  display: inline-block;
+  min-width: 300px;
+}
