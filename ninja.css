@@ -291,3 +291,13 @@ li {
 li:last-child {
   margin-bottom: 0;
 }
+
+span::before {
+  content: "";
+  display: block;
+  background-image: url(https://ninjacode.work/assets/img/kv.png);
+  width: 250px;
+  height: 140px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
