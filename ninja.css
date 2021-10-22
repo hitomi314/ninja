@@ -301,3 +301,15 @@ span::before {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+span::after {
+  content: "";
+  display: inline-block;
+  background-image: url(https://ninjacode.work//assets/img/shuriken.png);
+  width: 12px;
+  height: 12px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 4px;
+  vertical-align: -1px;
+}
