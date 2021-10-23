@@ -313,3 +313,21 @@ span::after {
   margin-left: 4px;
   vertical-align: -1px;
 }
+
+body {
+  padding: 64px;
+}
+span::before,
+span::after {
+  display: block;
+  content: "";
+  width: 50px;
+  height: 1px;
+  background: #000;
+}
+span::before {
+  transform: rotate(-45deg);
+}
+span::after {
+  transform: rotate(45deg);
+}
