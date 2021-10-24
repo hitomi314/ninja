@@ -331,3 +331,9 @@ span::before {
 span::after {
   transform: rotate(45deg);
 }
+
+img {
+  width: 100px;
+  height: 65px;
+  object-fit: cover;
+}
