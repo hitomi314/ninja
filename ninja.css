@@ -349,3 +349,7 @@ h1 {
 p {
   line-height: 40px;
 }
+
+section > p:first-of-type {
+  color: red;
+}
