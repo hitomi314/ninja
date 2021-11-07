@@ -392,3 +392,10 @@ section {
 .num05 {
   order: 2;
 }
+
+div {
+  width: 200px;
+  margin: auto;
+  height: 200px;
+  overflow-y: auto;
+}
