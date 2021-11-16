@@ -440,3 +440,10 @@ div {
   transform: rotate(45deg);
   margin-top: 100px;
 }
+
+p {
+  margin-bottom: 16px;
+}
+p:nth-child(2) {
+  visibility: hidden;
+}
