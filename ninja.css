@@ -466,3 +466,20 @@ div:nth-child(3) {
 div:nth-child(4) {
   background-color: blue;
 }
+
+section {
+  width: 300px;
+  height: 300px;
+  overflow-y: auto;
+}
+section::-webkit-scrollbar {
+  width: 10px;
+}
+section::-webkit-scrollbar-track{
+  background: yellow;
+  border: solid 1px #000;
+}
+section::-webkit-scrollbar-thumb{
+    background: red;
+    border-radius: 10px;
+}
